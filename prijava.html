@@ -19,22 +19,32 @@
     </div>
 
 
-    <div id="prijava">
-        <label for="ime">Ime: </label>
-        <input type="text" value="" id="ime"><br>
-        <label for="prezime">Prezime: </label>
-        <input type="text" value="" id="prezime"><br>
-        <label for="mail">Mail: </label>
-        <input type="email" name="" id="mail"><br>
-        <label for="sifra">Sifra: </label>
-        <input type="password" name="" id="sifra"><br>
-        <label for="broj">Broj telefona: </label>
-        <input type="tel" name="" id="broj">
-        <br>
-        <!--<input type="submit" value="Potvrdi" id="potvrdi">-->
-        <button onclick="funk" id="potvrdi">Potvrdi</button>
-    </div>
+    <div class="formaPrijava" id=prijavaOrg>
+        <form action="" id="forma">
+            <h1>Prijavi se:</h1>
 
+
+            <input type="text" id="Ime" name="Im" placeholder="Unesite ime" class="unos" required>
+            <input type="text" id="Prezime" name="Pr" placeholder="Unesite prezime" class="unos" required>
+            <input type="email" id="email" name="Em" placeholder="Unesite email" class="unos" required>
+            <input type="password" id="password" name="pass" placeholder="Unesite sifru" class="unos" required>
+            <div id="greska"> </div>
+
+            <input type="submit" id=prijavi value="Prijavi se" class="submitDugme" onclick="popUp()">
+            <div id="Zatvori">
+
+                <input type="button" id=nazad value="Nazad" class="nazadDugme" onclick="zatvori()">
+
+            </div>
+
+
+
+
+        </form>
+
+
+
+    </div>
 
     <script src="prijava.js"></script>
 </body>
