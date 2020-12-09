@@ -34,7 +34,7 @@ html {
 }
 
 .hero-img {
-    background-image: url("slike/planinaVOZ.jpg");
+    background-image: url("../slike/planinaVOZ.jpg");
     height: 50%;
     background-position: center;
     background-repeat: no-repeat;
@@ -88,7 +88,7 @@ h3 {
 }
 
 .hero-img2 {
-    background-image: url("slike/planinaSUMA.jpg");
+    background-image: url("../slike/planinaSUMA.jpg");
     height: 50%;
     background-position: center;
     background-repeat: no-repeat;
