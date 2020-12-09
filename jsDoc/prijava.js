@@ -9,11 +9,11 @@ form.addEventListener('submit', (e) => {
     let messges = [];
 
     if (!(ime.value.includes(''))) {
-        messges.push('Morate uneti ime\n');
+        /*messges.push('Morate uneti ime\n');*/
     }
 
     if (!(prezime.value.includes(''))) {
-        messges.push('Morate uneti prezime\n');
+        /*messges.push('Morate uneti prezime\n');*/
     }
 
     if (password.value.length < 6) {
@@ -31,8 +31,3 @@ form.addEventListener('submit', (e) => {
 
 
 });
-
-function zatvori() {
-    var openedWindow = window;
-    openedWindow.close();
-}
